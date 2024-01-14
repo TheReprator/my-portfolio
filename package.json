@@ -2,9 +2,10 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "description": "Portfolio in react",
-  "main": "App.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/TheReprator/my-portfolio/issues"
   },
-  "homepage": "https://github.com/TheReprator/my-portfolio#readme"
+  "homepage": "https://github.com/TheReprator/my-portfolio#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "postcss": "^8.4.33",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  }
 }
